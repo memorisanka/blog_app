@@ -11,9 +11,6 @@ def home(request):
     return render(request, 'home.html', {'title': 'Home', 'posts': Article.objects.all()})
 
 
-def about(request):
-    return render(request, 'about.html', {'title': 'About'})
-
 
 class ArticleListView(ListView):
     model = Article
