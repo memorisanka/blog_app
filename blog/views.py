@@ -11,7 +11,6 @@ def home(request):
     return render(request, 'home.html', {'title': 'Home', 'posts': Article.objects.all()})
 
 
-
 class ArticleListView(ListView):
     model = Article
     template_name = 'home.html'

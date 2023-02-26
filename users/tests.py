@@ -35,5 +35,3 @@ class RegisterViewTestCase(TestCase):
         self.assertContains(response, 'Register')
         self.assertContains(response, 'Enter a valid email address.')
         self.assertFalse(User.objects.filter(username='testuser').exists())
-
-
