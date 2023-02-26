@@ -49,11 +49,6 @@ a.article-title:hover {
   white-space: pre-line;
 }
 
-.article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
-}
 
 .article-metadata {
   padding-bottom: 1px;
